@@ -1,0 +1,44 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    h1 {
+        color: #2c3e50;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 10px;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #3498db;
+        color: white;
+    }
+    button {
+        border-radius: 5px;
+        border-width: 3px;
+        margin: 5px;
+        padding: 8px 12px;
+        background: #2ecc71;
+        border-color: #074114;
+        color: white;
+        
+        cursor: pointer;
+    }
+    button:hover {
+        background: rgb(51, 151, 93);
+    }
+
+    button:active {
+        background: #0f3f23;
+    }
